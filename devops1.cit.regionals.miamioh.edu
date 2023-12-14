@@ -1,20 +1,21 @@
 server {
-    listen 80;
-    server_name devops2.cit.regionals.miamioh.edu;
+            server_name devopsX.cit.regionals.miamioh.edu;
+        location / {
+            return 404;  # or some other default behavior
+        }
 
-    location /student1/ {
-        proxy_pass http://CHANGE ME TO KUBERNETES IP:30082;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto $scheme;
-    }
-
-    location /student2/ {
-        proxy_pass http://CHANGE ME TO KUBERNETES IP;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto $scheme;
-    }
-}
+            location /student1/ {
+                proxy_pass http://PUT CLUSTER IP HERE/; # Point to amp server
+                proxy_set_header Host $host;
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                proxy_set_header X-Forwarded-Proto $scheme;
+            }
+            location /student2/ {
+                proxy_pass http://PUT CLUSTER IP HERE/; # Point to amp server
+                proxy_set_header Host $host;
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                proxy_set_header X-Forwarded-Proto $scheme;
+            }
+        }
