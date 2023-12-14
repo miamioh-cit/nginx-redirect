@@ -1,6 +1,6 @@
 server {
     listen 80;
-    server_name devops1.cit.regionals.miamioh.edu;
+    server_name devops2.cit.regionals.miamioh.edu;
 
     location /student1/ {
         proxy_pass http://CHANGE ME TO KUBERNETES IP;
