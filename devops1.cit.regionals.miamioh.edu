@@ -5,7 +5,7 @@ server {
         }
 
             location /babbam2/ {
-                proxy_pass http://10.48.10.178/; # Point to amp server
+                proxy_pass http://110.48.10.198/; # Point to amp server
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
@@ -19,140 +19,140 @@ server {
                 proxy_set_header X-Forwarded-Proto $scheme;
             }
             location /dayam7/ {
-                proxy_pass http://10.48.10.178/; # Point to amp server
+                proxy_pass http://PUT CLUSTER IP HERE/; # Point to amp server
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
                 proxy_set_header X-Forwarded-Proto $scheme;
             }
             location /flohreh/ {
-                proxy_pass http://10.48.10.178/; # Point to amp server
+                proxy_pass http://PUT CLUSTER IP HERE/; # Point to amp server
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
                 proxy_set_header X-Forwarded-Proto $scheme;
             }            
             location /gartnea/ {
-                proxy_pass http://10.48.10.178/; # Point to amp server
+                proxy_pass http://PUT CLUSTER IP HERE/; # Point to amp server
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
                 proxy_set_header X-Forwarded-Proto $scheme;
             }            
             location /grimesdl/ {
-                proxy_pass http://10.48.10.178/; # Point to amp server
+                proxy_pass http://PUT CLUSTER IP HERE/; # Point to amp server
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
                 proxy_set_header X-Forwarded-Proto $scheme;
             }            
             location /henderbl/ {
-                proxy_pass http://10.48.10.178/; # Point to amp server
+                proxy_pass http://PUT CLUSTER IP HERE/; # Point to amp server
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
                 proxy_set_header X-Forwarded-Proto $scheme;
             }            
             location /hendris3/ {
-                proxy_pass http://10.48.10.178/; # Point to amp server
+                proxy_pass http://PUT CLUSTER IP HERE/; # Point to amp server
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
                 proxy_set_header X-Forwarded-Proto $scheme;
             }
             location /hunterds/ {
-                proxy_pass http://10.48.10.178/; # Point to amp server
+                proxy_pass http://10.48.10.155/; # Point to amp server
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
                 proxy_set_header X-Forwarded-Proto $scheme;
             }
             location /mccurdca/ {
-                proxy_pass http://10.48.10.178/; # Point to amp server
+                proxy_pass http://PUT CLUSTER IP HERE/; # Point to amp server
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
                 proxy_set_header X-Forwarded-Proto $scheme;
             }
             location /mosinsmj/ {
-                proxy_pass http://10.48.10.178/; # Point to amp server
+                proxy_pass http://PUT CLUSTER IP HERE/; # Point to amp server
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
                 proxy_set_header X-Forwarded-Proto $scheme;
             }
             location /newca/ {
-                proxy_pass http://10.48.10.178/; # Point to amp server
+                proxy_pass http://PUT CLUSTER IP HERE/; # Point to amp server
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
                 proxy_set_header X-Forwarded-Proto $scheme;
             }
             location /rain/ {
-                proxy_pass http://10.48.10.178/; # Point to amp server
+                proxy_pass http://PUT CLUSTER IP HERE/; # Point to amp server
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
                 proxy_set_header X-Forwarded-Proto $scheme;
             }
             location /roseaw/ {
-                proxy_pass http://10.48.10.178/; # Point to amp server
+                proxy_pass http://PUT CLUSTER IP HERE/; # Point to amp server
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
                 proxy_set_header X-Forwarded-Proto $scheme;
             }
-            location /roseaw/ {
-                proxy_pass http://10.48.10.178/; # Point to amp server
+            location /test/ {
+                proxy_pass http://PUT CLUSTER IP HERE/; # Point to amp server
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
                 proxy_set_header X-Forwarded-Proto $scheme;
             }
             location /sandlizh/ {
-                proxy_pass http://10.48.10.178/; # Point to amp server
+                proxy_pass http://PUT CLUSTER IP HERE/; # Point to amp server
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
                 proxy_set_header X-Forwarded-Proto $scheme;
             }
             location /singleb2/ {
-                proxy_pass http://10.48.10.178/; # Point to amp server
+                proxy_pass http://PUT CLUSTER IP HERE/; # Point to amp server
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
                 proxy_set_header X-Forwarded-Proto $scheme;
             }
             location /tanl4/ {
-                proxy_pass http://10.48.10.178/; # Point to amp server
+                proxy_pass http://PUT CLUSTER IP HERE/; # Point to amp server
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
                 proxy_set_header X-Forwarded-Proto $scheme;
             }
             location /taylo271/ {
-                proxy_pass http://10.48.10.178/; # Point to amp server
+                proxy_pass http://PUT CLUSTER IP HERE/; # Point to amp server
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
                 proxy_set_header X-Forwarded-Proto $scheme;
             }
             location /taylorw8/ {
-                proxy_pass http://10.48.10.178/; # Point to amp server
+                proxy_pass http://10.48.10.186/; # Point to amp server
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
                 proxy_set_header X-Forwarded-Proto $scheme;
             }
             location /walshnj/ {
-                proxy_pass http://10.48.10.178/; # Point to amp server
+                proxy_pass http://PUT CLUSTER IP HERE/; # Point to amp server
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
                 proxy_set_header X-Forwarded-Proto $scheme;
             }
             location /wanes/ {
-                proxy_pass http://10.48.10.178/; # Point to amp server
+                proxy_pass http://PUT CLUSTER IP HERE/; # Point to amp server
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
