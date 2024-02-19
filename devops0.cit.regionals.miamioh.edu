@@ -1,5 +1,5 @@
 server {
-            server_name devops1.cit.regionals.miamioh.edu;
+            server_name devops0.cit.regionals.miamioh.edu;
         location / {
             return 404;  # or some other default behavior
         }
